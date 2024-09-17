@@ -8,20 +8,21 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Car Insurance Form</h1>
 	<form method="post">
-		<fieldset>
-			<lable for="name">Name *</lable>
+			<lable for="name">Name *</lable><br>
 			<input type="text" id="name" required="Yes"></input><br><br>
 
-			<lable for="email">Email *</lable>
+			<lable for="email">Email *</lable><br>
 			<input type="text" id="name" required="Yes"></input><br><br>
 
 			<lable for="gender">Gender *</lable><br>
 			<label for="gender">
 			<input type="radio" name="gender" value="male" required="Yes">Male</input></lable>
-			<input type="radio" required>Female</input><br><br>
+			<label for="gender">
+			<input type="radio" required>Female</input></label><br><br>
 
-			<label for="cars">Car Brands *</label>
+			<label for="cars">Car Brands *</label><br>
             <select id="cars" name="cars" required="No">
                 <option value="" disabled selected>--option--</option>
                 <option value="bmw">BMW</option>
@@ -29,16 +30,15 @@
                 <option value="mercedez">Mercedez</option>
             </select><br><br>
 
-			<lable for="carage">Car Age *</lable>
+			<lable for="carage">Car Age *</lable><br>
 			<input type="number" id="carage" required="Yes"></input><br><br>
 
-			<lable for="dop">Date of Purchase *</lable>
+			<lable for="dop">Date of Purchase *</lable><br>
 			<input type="#date" id="dob" required="Yes"></input><br><br>
 
-			<lable for="password">Password *</lable>
+			<lable for="password">Password *</lable><br>
 			<input type="password" id="password" required="Yes"></input><br><br>
 			<button type="submit">Submit</button>
-		</fieldset>
     <script type="text/javascript" src="./script.js">
 </script>
 
